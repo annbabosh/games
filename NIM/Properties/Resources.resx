@@ -1,0 +1,1933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ИК_для_имен" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_для_имен.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка4.2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка4.2.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_1_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_1_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\28.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_31_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_31_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="з1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\з1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_7_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_7_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="к-ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\к-ч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_27_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_27_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_17_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_17_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_вопрос" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_вопрос.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_27.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="опр" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\опр.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_имена_ч-ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_имена_ч-ч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_31_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_31_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="з2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\з2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_6_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_6_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_ч-ч_кнопка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_ч-ч_кнопка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_17_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_17_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вопрос" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вопрос.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\110.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="60з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="31з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_20_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_20_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3к" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3к.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_4_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_4_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка2.1.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка2.1.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_16.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_24_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_24_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кнопка_крест" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кнопка_крест.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_6_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_6_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_22.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_хотсыгрещё" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_хотсыгрещё.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_для_лэйбла3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_для_лэйбла3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_гиф" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_гиф.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="игр" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\игр.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБзаставка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБзаставка1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_20_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_20_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2ч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_4_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_4_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка2.1.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка2.1.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка4.0.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка4.0.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="38з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\38з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_23.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_11_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_11_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="первый2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\первый2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_имена(ч-к,к-ч)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_имена(ч-к,к-ч).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_да" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_да.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_кн1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_кн1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_18.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ич_гиф.vsPYD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ич_гиф.vsPYD.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ч-ч3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ч-ч3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_кн" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_кн.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_23_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_23_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_главный фон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_главный фон.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6б" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6б.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="55з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\55з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_1_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_1_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_кч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_кч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_2_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_2_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_16.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="низ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\низ.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_20.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка4.0.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка4.0.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_макет_88" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_макет_88.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_вопрос" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_вопрос.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБфон_для_помощи" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБфон_для_помощи.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ28.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_192" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ18.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="туз3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\туз3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ27.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_чч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_чч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Далее2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Далее2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_27.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_29.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_10_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_10_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\41.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\50.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3б" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3б.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="47з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\47з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С22.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_макет_82" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_макет_82.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБфон_для_цифр" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБфон_для_цифр.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ч-к" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ч-к.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_имя_ч-л_к-ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_имя_ч-л_к-ч.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_12_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_12_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_к-ч_кнопка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_к-ч_кнопка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ33.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_8_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_8_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_лэб" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_лэб.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\37.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_11_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_11_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_16.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ19.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_26.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="заставка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\заставка1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_цвет+хрю1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_цвет+хрю1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\46.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_да" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_да.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="к-ч3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\к-ч3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_8_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_8_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_для_сг" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_для_сг.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_18_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_18_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="з3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\з3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4п" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4п.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_фонн_для_массива" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_фонн_для_массива.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_18_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_18_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6п" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6п.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_0_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_0_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_29.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="59з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\59з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="хрюшка2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\хрюшка2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="42з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_5_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_5_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С6.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="46з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\46з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_29.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goluboy_fon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goluboy_fon.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_16_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_16_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ26.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_25.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_фонн" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_фонн.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Правила_для_241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Правила_для_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_вопрос" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_вопрос.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\47.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_5_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_5_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_далее" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_далее.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot_1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_для_лэйбла7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_для_лэйбла7.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="V2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\V2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="44з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\44з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБоснова" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБоснова.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_27.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="49з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\49з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="56з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\56з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_12_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_12_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_фонн2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_фонн2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_24.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_фон_лэйблов" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_фон_лэйблов.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="для_лейбла1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\для_лейбла1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_32_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_32_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ29.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11111.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ17.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="33з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\33з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5к" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5к.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СП_фон_голубой" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СП_фон_голубой.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_имена(ч-ч)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_имена(ч-ч).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6к" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6к.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_29_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_29_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_доп_фон22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_доп_фон22.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ15.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="53з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\53з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_окурок" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_окурок.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_Визуал_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_Визуал_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_20.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ч-ч2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ч-ч2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="верх" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\верх.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_21_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_21_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\43.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ч-ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ч-ч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_18.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_15_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_15_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6ч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ14.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_ч-к_кнопка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_ч-к_кнопка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_заставка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_заставка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="заст" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\заст.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_макет_81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_макет_81.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\29.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_зеленый_светлый" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_зеленый_светлый.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3ч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_ч-ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_ч-ч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="далее" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\далее.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_далее" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_далее.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="58з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\58з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_13_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_13_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Правила_для_ним" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Правила_для_ним.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="хрюшка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\хрюшка1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка4.1.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка4.1.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3п" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3п.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="да" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\да.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_22_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_22_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_13_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_13_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_да" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_да.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_21.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_28_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_28_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_28.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="37з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\37з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="галка_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\галка_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБвопрос" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБвопрос.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="хрюшка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\хрюшка.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\44.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_9.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ч-к3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ч-к3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С17.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="для_лейбла2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\для_лейбла2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_нет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_нет.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="акет1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\акет1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_28_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_28_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_29.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\40.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_доп_фон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_доп_фон.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="27з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\48.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С30.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4б" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4б.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_20.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="нии" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\нии.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_21.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_9_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_9_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка2.21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка2.2.11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_21_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_21_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка4.1.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка4.1.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="40з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\40з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="туз4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\туз4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\52.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_16_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_16_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_спичка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_спичка.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_9_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_9_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка2.22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка2.2.21.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_22.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ20.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_24_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_24_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_для_лэйбла6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_для_лэйбла6.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кнопка_красный" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кнопка_красный.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="24з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_доп_фон1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_доп_фон1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_заст_для_ч-ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_заст_для_ч-ч.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="нет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\нет.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4ч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_макет_83" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_макет_83.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_стрелка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_стрелка.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_0_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_0_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_10_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_10_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_23.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="правила" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\правила.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_15_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_15_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\49.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="50з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\50з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_22_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_22_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_32_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_32_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_чей_ход" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_чей_ход.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_22.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2к" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2к.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_24.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С33.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_кн" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_кн.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\56.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_14_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_14_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка2.2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка2.2.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="svinya-kopilka-animatsionnaya-kartinka-0017" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\svinya-kopilka-animatsionnaya-kartinka-0017.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="41з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\41з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="галка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\галка.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_ч-ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_ч-ч.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="победитель" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\победитель.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка3.11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка3.1.21.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2б" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2б.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_14_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_14_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_фонн_для_массива2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_фонн_для_массива2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_макет_84" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_макет_84.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ23.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ч-к2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ч-к2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="имя для чк_кч24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\имя для чк_кч24.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\45.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_Визуал_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_Визуал_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_лэб2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_лэб2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\45з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="макет2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\макет2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_3_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_3_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aa.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_Визуал_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_Визуал_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="39з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\39з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С23.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_хотсыгрещё2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_хотсыгрещё2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zelenij_kartinki_fon_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zelenij_kartinki_fon_9.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_ч-к" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_ч-к.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_заставка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_заставка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="туз1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\туз1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="для ним" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\для ним.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_нет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_нет.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="крест" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\крест.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_чк" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_чк.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="43з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\43з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С18.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_заст(600)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_заст(600).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка4.3.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка4.3.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_25_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_25_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="48з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\48з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_23.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка3.3.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка3.3.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_18.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_кн1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_кн1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_33_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_33_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="заставка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\заставка.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_29_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_29_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_макет_86" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_макет_86.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_19_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_19_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ31.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_26.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="25з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_12.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="34з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка4.3.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка4.3.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ30.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С28.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_зеленый_темный" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_зеленый_темный.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_19_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_19_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_стрелка_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_стрелка_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИП_введите_имя" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИП_введите_имя.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_ч-к" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_ч-к.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="57з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\57з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="32з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\26.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_9.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кнопка_зел" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кнопка_зел.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_имена" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_имена.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_стрелка_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_стрелка_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5ч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_Визуал_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_Визуал_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_к-ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_к-ч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\33.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="23з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_23_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_23_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С19.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_21.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С20.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_26.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_16.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="28з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\28з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_нет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_нет.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="игроки2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\игроки2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_26_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_26_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С31.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="основа" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\основа.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_далее" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_далее.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ним" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ним.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С15.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_для_лэйбла4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_для_лэйбла4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ25.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_20.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_33_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_33_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\58.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="игроки" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\игроки.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="нью2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\нью2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ5.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="52з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\52з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_хотите_сыграть_еще" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_хотите_сыграть_еще.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="крест_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\крест_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_26_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_26_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="51з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_25.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_25.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="туз2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\туз2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ещё раз 23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ещё раз 23.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_25_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_25_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_макет_85" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_макет_85.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка3.2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка3.2.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка3.1.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка3.1.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="29з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\29з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\53.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_кн" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_кн.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="17з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="54з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\54з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБББ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБББ.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_заст(550)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_заст(550).png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка3.1.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка3.1.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_24.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_30_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_30_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_26.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="фон2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\фон2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С26.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С29.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="26з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\26з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="30з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2п" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2п.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_стрелка_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_стрелка_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="фон на ур-ни" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\фон на ур-ни.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="фон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\фон.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_нет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_нет.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="да24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\да24.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБХотСыгрЕщё" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБХотСыгрЕщё.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С9.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5п" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5п.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_15.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С8.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_макет_90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_макет_90.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_для_лэйбла2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_для_лэйбла2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\39.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка4.2.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка4.2.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_фон_каквар" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_фон_каквар.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_23.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_3_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_3_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="проба" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\проба.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_21.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_30_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_30_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4к" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4к.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_2_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_2_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\54.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_заст_для_ч-ч2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_заст_для_ч-ч2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка2.2.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка2.2.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С27.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="22з" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22з.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_к-ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_к-ч.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_введите_имя" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_введите_имя.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кнопка_стрелка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кнопка_стрелка.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С14.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_22.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_далее" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_далее.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_9.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_13.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_для_лэйбла5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_для_лэйбла5.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="59" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\59.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="монета1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\монета1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Правила_для_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Правила_для_24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_24.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_макет_87" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_макет_87.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СП_фон_для_игры" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СП_фон_для_игры.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБзаставка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБзаставка.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="монета2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\монета2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\55.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка3.2.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка3.2.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="нью" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\нью.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ22.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_25.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="для_лейбла11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\для_лейбла11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="для ч-к,к-ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\для ч-к,к-ч.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="стрелка3.3.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\стрелка3.3.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\38.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СП_главная" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СП_главная.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_6.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_для_лэйбла" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_для_лэйбла.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип1_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_да" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_да.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИЧ_цвет+хрю" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИЧ_цвет+хрю.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\57.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_19.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип3_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип3_9.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_хот_сыгр_ещё" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_хот_сыгр_ещё.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СГ7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СГ7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_10.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="нет24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\нет24.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\211.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_7_вид2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_7_вид2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="СБ_макет_89" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\СБ_макет_89.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С25.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИБ_цифры_27_вид1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИБ_цифры_27_вид1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вар2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вар2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5б" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5б.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\С7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип5_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип5_18.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ИК_карандаш_тип2_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ИК_карандаш_тип2_27.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички5.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички8.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички13.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички16.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички18.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички21.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички24.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички26.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички29.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички32.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="спички34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\спички34.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

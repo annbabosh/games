@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Игра для двоих. На столе пять кучек, и в каждой куче - некоторое  количество камней. Каждый из игроков на своем ходе берет столько камней, сколько хочет, но только из одной кучки и обязательно хотя бы один. Выиграет тот, кто берет последний камень из последней кучки.</value>
+  </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>	В игре «Ним» каждую комбинацию камней можно назвать либо «опасной», либо «безопасной». Если позиция, создавшаяся после очередного хода игрока, гарантирует ему выигрыш, она называется безопасной; в противном случае позиция называется опасной. Любую опасную позицию,  сделав соответствующий ход, всегда можно превратить в безопасную. Каждая безопасная позиция становится опасной после любого хода. 
+	Чтобы определить, опасна или безопасна данная позиция, число камней в каждом ряду нужно записать в двоичной системе. Если сумма чисел в каждом столбце (разряде) равна нулю или четна, то позиция безопасна, если же сумма нечетна хотя бы в одном разряде, то позиция опасна. Если позиция опасна, после записи количества камней в каждом ряду в двоичной системе, находится самый левый столбец с нечетной суммой цифр.  Изменив любой ряд с единицей в этом столбце, можно превратить позицию в безопасную. 
+	Рациональная игра заключается в том, чтобы каждый раз превращать опасную позицию в безопасную.</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>	При выборе пункта меню «Новая игра» пользователю предлагается выбрать «Демонстрационные режимы», «Режимы с подсказками» или «Обучающий режим». 
+	В демонстрационных режимах при нажатии на кнопку со знаком вопроса появляется вкладка, на которой пользователь может увидеть две таблицы. 
+Рассмотрим таблицу, которая расположена выше и по размеру больше. Столбец из пяти ячеек, располагающийся слева от таблицы размером 5x4 содержит количество камней в рядах с первого по пятый. В строки самой таблицы производится запись количества камней в каждом ряду в двоичной системе счисления. В строке над таблицей указывается количество единиц к каждом столбце таблицы. А в строке под таблицей крестиком отмечены столбцы таблицы, в которых стоит нечетное количество цифр 1. 
+Таким образом, если позиция опасная, ее необходимо превратить в безопасную. Для этого обратимся ко второй таблице, которая расположена ниже (таблица 3х4).  
+После построения таблицы 5х4, находится самый левый столбец с нечетной суммой цифр. Изменив любой ряд с единицей в этом столбце, можно превратить позицию в безопасную. В таблице 3х4 в первой строке записывается этот самый ряд (число в двоичной системе), справа указывается число, соответствующее ряду, в десятичной системе. Те цифры двоичной записи этого числа, под которым оказались крестики (вторая строка таблицы), заменяются на противоположные (третья строка), остальные цифры остаются без изменения. Получившееся в третьем ряду таблицы число в двоичной записи записывается справа в десятичной системе счисления.
+Именно два десятичных числа, расположенных справа от таблицы 3х4 объясняют какой ход сделал компьютер. Число выше – количество камней в определенном ряду, число ниже – количество камней, которые из этого ряда остались после хода компьютера.
+
+	В режимах с подсказками пользователь при наведении курсора мыши на любой камень может увидеть ситуацию в виде таблицы 5х4 которая сложится после его хода. 
+	В обучающем режиме пользователю предлагается самому заполнить таблицы (путем нажатий на ячейки) и в соответствии с ними сделать ход. В данном режиме есть кнопка «Проверить», при нажатии на которую верно заполненные ячейки выделяются зеленым цветом, остальные красным. При желании можно очистить обе таблицы нажав на кнопку «Очистить».
+	! Для того, чтобы сделать ход, необходимо навести курсор мыши на любой камень и кликнуть по нему левой кнопкой мыши. Просвечивающиеся при наведении курсора мыши камни будут взяты пользователем при нажатии левой кнопкой мыши на выбранный камень.  </value>
+  </data>
+</root>

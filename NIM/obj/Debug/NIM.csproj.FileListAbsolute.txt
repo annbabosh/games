@@ -1,0 +1,211 @@
+C:\Users\komochek\Desktop\NIM\NIM\bin\Debug\NIM.exe
+C:\Users\komochek\Desktop\NIM\NIM\bin\Debug\NIM.pdb
+C:\Users\komochek\Desktop\NIM\NIM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\komochek\Desktop\NIM\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\komochek\Desktop\NIM\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\komochek\Desktop\NIM\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\komochek\Desktop\NIM\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\komochek\Desktop\NIM\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+C:\Users\komochek\Desktop\NIM\NIM\obj\Debug\NIM.exe
+C:\Users\komochek\Desktop\NIM\NIM\obj\Debug\NIM.pdb
+C:\Users\komochek\Desktop\NIM\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\komochek\Desktop\NIM\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\komochek\Desktop\NIM\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+H:\NIM + 24\NIM\obj\Debug\NIM.exe
+H:\NIM + 24\NIM\obj\Debug\NIM.pdb
+F:\NIM + 24\NIM\obj\Debug\NIM.exe
+F:\NIM + 24\NIM\obj\Debug\NIM.pdb
+F:\NIM + 24\NIM\bin\Debug\NIM.exe
+F:\NIM + 24\NIM\bin\Debug\NIM.pdb
+F:\NIM + 24\NIM\obj\Debug\ResolveAssemblyReference.cache
+F:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+F:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+F:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+F:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+F:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+F:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+F:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+F:\NIM + 24\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+O:\NIM + 24\NIM\obj\Debug\NIM.exe
+O:\NIM + 24\NIM\obj\Debug\NIM.pdb
+O:\NIM + 24\NIM\bin\Debug\NIM.exe
+O:\NIM + 24\NIM\bin\Debug\NIM.pdb
+O:\NIM + 24\NIM\obj\Debug\ResolveAssemblyReference.cache
+O:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+O:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+O:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+O:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+O:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+O:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+O:\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+O:\NIM + 24\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+C:\Users\babos\Desktop\NIM + 24\NIM\obj\Debug\NIM.exe
+C:\Users\babos\Desktop\NIM + 24\NIM\obj\Debug\NIM.pdb
+C:\Users\babos\Desktop\NIM + 24\NIM\bin\Debug\NIM.exe
+C:\Users\babos\Desktop\NIM + 24\NIM\bin\Debug\NIM.pdb
+C:\Users\babos\Desktop\NIM + 24\NIM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\babos\Desktop\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\babos\Desktop\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\babos\Desktop\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\babos\Desktop\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\babos\Desktop\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\babos\Desktop\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\babos\Desktop\NIM + 24\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\babos\Desktop\NIM + 24\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\obj\Debug\NIM.exe
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\obj\Debug\NIM.pdb
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\bin\Debug\NIM.exe
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\bin\Debug\NIM.pdb
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\babos\Desktop\NIM + 24 версия 3.1\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\NIM.exe
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\NIM.pdb
+O:\NIM + 24 версия 3.2\NIM\bin\Debug\NIM.exe
+O:\NIM + 24 версия 3.2\NIM\bin\Debug\NIM.pdb
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\ResolveAssemblyReference.cache
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+O:\NIM + 24 версия 3.2\NIM\obj\Debug\WindowsFormsApplication1.Form7.resources
+F:\NIM + 24 версия 3.2\NIM\obj\Debug\NIM.exe
+F:\NIM + 24 версия 3.2\NIM\obj\Debug\NIM.pdb
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\NIM.exe
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\NIM.pdb
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\bin\Debug\NIM.exe
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\bin\Debug\NIM.pdb
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\WindowsFormsApplication1.Form7.resources
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\babos\Desktop\курсачи\Курсач 4.0\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\NIM.exe
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\NIM.pdb
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\bin\Debug\NIM.exe
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\bin\Debug\NIM.pdb
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\WindowsFormsApplication1.Form7.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\WindowsFormsApplication1.Form8.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.0\NIM\obj\Debug\WindowsFormsApplication1.Form9.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\NIM.exe
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\NIM.pdb
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\bin\Debug\NIM.exe
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\bin\Debug\NIM.pdb
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\WindowsFormsApplication1.Form7.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\WindowsFormsApplication1.Form8.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\WindowsFormsApplication1.Form9.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\babos\Desktop\курсачи\Курсач 5.1\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\NIM.exe
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\NIM.pdb
+C:\Users\babos\Desktop\Курсач 5.2\NIM\bin\Debug\NIM.exe
+C:\Users\babos\Desktop\Курсач 5.2\NIM\bin\Debug\NIM.pdb
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Form7.resources
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Form8.resources
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Form9.resources
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Form10.resources
+C:\Users\babos\Desktop\Курсач 5.2\NIM\obj\Debug\WindowsFormsApplication1.Form11.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\NIM.exe
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\NIM.pdb
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form10.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form11.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form7.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form8.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form9.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+C:\Users\babos\Desktop\Курсач 6.0\NIM\bin\Debug\NIM.exe
+C:\Users\babos\Desktop\Курсач 6.0\NIM\bin\Debug\NIM.pdb
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form12.resources
+C:\Users\babos\Desktop\Курсач 6.0\NIM\obj\Debug\WindowsFormsApplication1.Form13.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\NIM.exe
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\NIM.pdb
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form10.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form11.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form12.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form13.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form7.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form8.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Form9.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\babos\Desktop\Курсач 7.0\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+C:\Users\babos\Desktop\Курсач 7.0\NIM\bin\Debug\NIM.exe
+C:\Users\babos\Desktop\Курсач 7.0\NIM\bin\Debug\NIM.pdb
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\NIM.exe
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\NIM.pdb
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form10.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form11.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form12.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form13.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form5.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form6.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form7.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form8.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Form9.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\babos\Desktop\Курсач 7.1\NIM\obj\Debug\NIM.csproj.GenerateResource.Cache
+C:\Users\babos\Desktop\Курсач 7.1\NIM\bin\Debug\NIM.exe
+C:\Users\babos\Desktop\Курсач 7.1\NIM\bin\Debug\NIM.pdb
+H:\Курсач 7.1\NIM\obj\Debug\NIM.exe
+H:\Курсач 7.1\NIM\obj\Debug\NIM.pdb
+C:\Users\komochek\Desktop\Курсач 7.1\NIM\obj\Debug\NIM.exe
+C:\Users\komochek\Desktop\Курсач 7.1\NIM\obj\Debug\NIM.pdb

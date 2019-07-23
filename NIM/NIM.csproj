@@ -1,0 +1,2016 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1978C80-60FD-48FC-A646-E165366A9A65}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>NIM</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\37з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\47.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\47з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\57.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\57з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\для ним.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ним.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\фон на ур-ни.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\к-ч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ч-к.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ч-ч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\нью.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\далее.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\игроки.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\игр.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\верх.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\низ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\победитель.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\да.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\нет.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\для ч-к,к-ч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\нью2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\з.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\з1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\опр.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\нии.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\правила.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\вопрос.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\фон.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\фон2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\кнопка_крест.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\кнопка_стрелка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\кнопка_зел.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\заставка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\заст.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ч-ч2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ч-к2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ч-к3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ч-ч3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\к-ч3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\заставка1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\основа.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Далее2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\игроки2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\туз1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\туз2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\туз3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\туз4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2б.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2к.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2п.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2ч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3б.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3к.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3п.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3ч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4б.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4к.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4п.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4ч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5б.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5к.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5п.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5ч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6б.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6к.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6п.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6ч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\для_лейбла1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\для_лейбла11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\проба.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\для_лейбла2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ещё раз 23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\да24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\нет24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\имя для чк_кч24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zelenij_kartinki_fon_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\кнопка_красный.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Правила_для_ним.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Правила_для_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБзаставка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБзаставка1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goluboy_fon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБоснова.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_ч-ч.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_ч-к.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_к-ч.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_имена_ч-ч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_далее.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СГ33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\С33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБХотСыгрЕщё.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_да.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_нет.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_имя_ч-л_к-ч.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБвопрос.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБфон_для_помощи.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБфон_для_цифр.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_0_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_0_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_1_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_1_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_2_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_2_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_3_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_3_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_4_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_4_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_5_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_5_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_6_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_6_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_7_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_7_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_8_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_8_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_9_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_9_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_10_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_10_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_11_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_11_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_12_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_12_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_13_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_13_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_14_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_14_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_15_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_15_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_16_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_16_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_17_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_17_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_18_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_18_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_19_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_19_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_20_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_20_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_21_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_21_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_22_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_22_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_23_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_23_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_24_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_24_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_25_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_25_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_26_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_26_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_27_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_27_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_28_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_28_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_29_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_29_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_30_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_30_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_31_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_31_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_32_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_32_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_33_вид1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_цифры_33_вид2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_Визуал_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_Визуал_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_Визуал_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБ_Визуал_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИБББ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка2.1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка2.1.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка2.2.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка2.2.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка2.2.11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка2.2.21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка3.1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка3.1.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка3.2.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка3.2.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка3.3.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка3.3.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка3.1.21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка4.0.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка4.0.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка4.1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка4.1.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка4.2.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка4.2.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка4.3.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка4.3.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\з2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_кн.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_кн1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_заставка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_главный фон.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_ч-ч_кнопка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_ч-к_кнопка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_к-ч_кнопка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_далее.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_да.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_нет.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_имена%28ч-ч%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_имена%28ч-к,к-ч%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_для_имен.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип1_29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_чей_ход.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_вопрос.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип2_19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_хотите_сыграть_еще.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_доп_фон.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_доп_фон1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип3_29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_карандаш_тип5_29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_доп_фон22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_для_лэйбла.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_для_лэйбла2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_для_лэйбла3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_для_лэйбла4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_для_лэйбла5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_для_лэйбла6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_для_лэйбла7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_для_сг.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_лэб.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_лэб2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_стрелка_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_стрелка_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИК_стрелка_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\з3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_кн.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_кн.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_кн1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_заставка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\вар2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_заст%28550%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_заст%28600%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_фонн.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_чч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_чк.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_кч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_далее.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_заст_для_ч-ч.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_заст_для_ч-ч2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\хрюшка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\svinya-kopilka-animatsionnaya-kartinka-0017.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\монета1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_гиф.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ич_гиф.vsPYD.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_цвет+хрю.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\первый2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\монета2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\хрюшка1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\хрюшка2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_хотсыгрещё.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_да.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_нет.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_хотсыгрещё2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИП_введите_имя.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_цвет+хрю1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_фонн2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_вопрос.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_стрелка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_фон_лэйблов.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_зеленый_светлый.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_зеленый_темный.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_фонн_для_массива.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_фонн_для_массива2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ИЧ_фон_каквар.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СП_главная.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СП_фон_голубой.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_ч-ч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_ч-к.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_к-ч.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_далее.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_введите_имя.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_имена.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СП_фон_для_игры.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_спичка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_окурок.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_да.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_нет.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_хот_сыгр_ещё.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\110.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\210.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\211.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\галка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\крест.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\галка_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\крест_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\акет1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\макет2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_макет_90.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_макет_81.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_макет_82.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_макет_83.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_макет_84.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_макет_85.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_макет_86.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_макет_87.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_макет_88.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_макет_89.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\СБ_вопрос.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\спички34.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
